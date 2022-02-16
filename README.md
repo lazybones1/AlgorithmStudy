@@ -56,6 +56,9 @@
 
  //8. 코드 리뷰
  // 깃 허브 홈페이지 -> pull request 확인 -> review chages -> 코멘트와 Approve 체크 후 submit review
+
+ // 깃 pull
+ git pull origin main
  ```
 ---
 ## 폴더구조
