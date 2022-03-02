@@ -54,8 +54,7 @@ public class Main_1719_택배 {
         pq.add(new Node(start, 0));
 
         boolean[] visit = new boolean[n+1];
-        int[] path = new int[n+1];//노드 추적
-        //정점 i 직전에 정점 j를 거쳐야 한다.(path[i]=j)
+        int[] path = new int[n+1];
         int[] d = new int[n+1];
 
         Arrays.fill(d, INF);
@@ -70,7 +69,7 @@ public class Main_1719_택배 {
             int now = node.index;
 
             if (visit[now]) {
-                //재방문시 패스
+       
                 continue;
             }
             visit[now] = true;
